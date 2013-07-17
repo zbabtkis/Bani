@@ -1,0 +1,17 @@
+{
+  "name": "Bani",
+  "version": "0.0.0",
+  "main": "bani.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "staddle": "latest",
+    "bootstrap": "~2.3.2",
+    "jquery": "~1.8.0",
+    "html5shiv": "~3.6.2",
+    "underscore": "~1.5.1"
+  }
+}

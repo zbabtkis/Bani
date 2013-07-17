@@ -1,0 +1,19 @@
+{
+  "name": "Bani",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "bani.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Zachary Babtkis",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.6.1"
+  }
+}
