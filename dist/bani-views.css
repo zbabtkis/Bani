@@ -170,7 +170,8 @@
     background: #3498db;
     color: #ecf0f1;
 }
-;.slider-bar {
+
+.slider-bar {
     position: relative;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -278,7 +279,8 @@
 }
 .theme-blue .tick {
     background: #34495e;
-};.toggle-switch {
+}
+.toggle-switch {
     width: 75px;
     height: 30px;
     border-radius: 25px;

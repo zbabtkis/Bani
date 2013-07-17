@@ -167,7 +167,8 @@ Dropdown.configure = function(options) {
     }
         
     return this._options;
-};var SliderBar = (function() {
+}
+var SliderBar = (function() {
     var Model = Backbone.Model.extend({
         defaults: {
             max: 10,

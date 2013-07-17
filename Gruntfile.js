@@ -3,9 +3,6 @@ grunt = require("grunt");
 grunt.initConfig({
 
 	concat: {
-		options: {
-	      separator: ';',
-	    },
 	    js: {
 	      	src: ['Views/Backbone-Dropdown/backbone.dropdown.js'
 	          	, 'Views/Backbone-SliderBar/backbone.sliderbar.js'
@@ -42,9 +39,3 @@ grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-concat');
 
 grunt.registerTask('default', ['concat', 'uglify', 'cssmin']);
-
-/**
-'build/baniViews.css': [
-			
-		]
-		*/
