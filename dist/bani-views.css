@@ -296,6 +296,11 @@
     user-select: none;
 }
 
+.toggle-switch.disabled {
+    background: #aaa;
+    color: #555;
+}
+
 .toggle-switch:before {
     content: "";
     width: 30px;
