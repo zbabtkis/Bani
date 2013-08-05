@@ -55,7 +55,7 @@ var Dropdown = (function() {
     var View = Backbone.View.extend({
         tagName: 'div',
         
-        className: 'dropdown',
+        className: 'bani-dropdown',
         
         template: _.template(TEMPLATE),
         

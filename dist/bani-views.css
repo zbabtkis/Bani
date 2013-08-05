@@ -1,5 +1,5 @@
 
-.dropdown {
+.bani-dropdown {
     padding: 10px 5px;
 }
 .current {
@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.dropdown ul {
+.bani-dropdown ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -25,18 +25,18 @@
     margin-top: 25px;
     overflow: hidden;
 }
-.dropdown li {
+.bani-dropdown li {
     padding: 2px 2px 2px 5px;
     cursor: pointer;
 }
-.dropdown li:last-child {
+.bani-dropdown li:last-child {
     border-bottom: none !important;
 }
 
-.dropdown.no-animation ul {
+.bani-dropdown.no-animation ul {
     display: none;
 }
-.dropdown.no-animation ul.active {
+.bani-dropdown.no-animation ul.active {
     display: block;
 }
 
@@ -44,28 +44,28 @@
  * Animations
  */
 
-.dropdown.animated ul {
+.bani-dropdown.animated ul {
     -webkit-transition: all 0.1s ease;
     transition: all 0.1s ease;
     opacity: 0;
 }
 
-.dropdown.animated li {
+.bani-dropdown.animated li {
     height: 0;
     line-height: 0;
     -webkit-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
 
-.dropdown.animated ul.active li {
+.bani-dropdown.animated ul.active li {
     height: 1.5em;
     line-height: 1.5em;
 }
-.dropdown.animated ul.active {
+.bani-dropdown.animated ul.active {
     opacity: 1;
 }
 
-.dropdown.animated .current .item {
+.bani-dropdown.animated .current .item {
     position: absolute;
     left: 10px;
     top: 5px;
@@ -86,87 +86,87 @@
  */
 
 /** Theme Green */
-.dropdown.theme-green .current {
+.bani-dropdown.theme-green .current {
     background: #fff;
     color: #2c3e50;
     border-color: #2ecc71;
     box-shadow: 0 0 1px 1px #ecf0f1 inset;
 }
-.dropdown.theme-green ul {
+.bani-dropdown.theme-green ul {
     border: 1px solid #2c3e50;
     background: #34495e;
     color: #ecf0f1;
 }
-.dropdown.theme-green li {
+.bani-dropdown.theme-green li {
     border-bottom: 1px solid #2c3e50;
 }
 
-.dropdown.theme-green li:hover {
+.bani-dropdown.theme-green li:hover {
     background: #2ecc71;
 }
 
 /** Theme Yellow */
 
-.dropdown.theme-yellow .current {
+.bani-dropdown.theme-yellow .current {
     background: #2c3e50;
     color: #ecf0f1;
     border-color: #f1c40f;
     box-shadow: 0 0 1px 1px #7f8c8d inset;
 }
-.dropdown.theme-yellow ul {
+.bani-dropdown.theme-yellow ul {
     border: 1px solid #2c3e50;
     background: #34495e;
     color: #ecf0f1;
 }
-.dropdown.theme-yellow li {
+.bani-dropdown.theme-yellow li {
     border-bottom: 1px solid #2c3e50;
 }
 
-.dropdown.theme-yellow li:hover {
+.bani-dropdown.theme-yellow li:hover {
     background: #f1c40f;
     color: #2c3e50;
 }
 
 /** Theme Red */
 
-.dropdown.theme-red .current {
+.bani-dropdown.theme-red .current {
     background: #ecf0f1;
     color: #34495e;
     border-color: #e74c3c;
     box-shadow: 0 0 1px 1px #7f8c8d inset;
 }
-.dropdown.theme-red ul {
+.bani-dropdown.theme-red ul {
     border: 1px solid #95a5a6;
     background: #ecf0f1;
     color: #7f8c8d;
 }
-.dropdown.theme-red li {
+.bani-dropdown.theme-red li {
     border-bottom: 1px solid #bdc3c7;
 }
 
-.dropdown.theme-red li:hover {
+.bani-dropdown.theme-red li:hover {
     background: #e74c3c;
     color: #ecf0f1;
 }
 
 /** Theme Blue */
 
-.dropdown.theme-blue .current {
+.bani-dropdown.theme-blue .current {
     background: #ecf0f1;
     color: #34495e;
     border-color: #2980b9;
     box-shadow: 0 0 1px 1px #7f8c8d inset;
 }
-.dropdown.theme-blue ul {
+.bani-dropdown.theme-blue ul {
     border: 1px solid #95a5a6;
     background: #ecf0f1;
     color: #7f8c8d;
 }
-.dropdown.theme-blue li {
+.bani-dropdown.theme-blue li {
     border-bottom: 1px solid #bdc3c7;
 }
 
-.dropdown.theme-blue li:hover {
+.bani-dropdown.theme-blue li:hover {
     background: #3498db;
     color: #ecf0f1;
 }
